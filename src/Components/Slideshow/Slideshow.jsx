@@ -1,8 +1,9 @@
 import React from 'react'
 import img1 from './../../Assets/Image/fondo.jpg'
 
-import {ReactComponent as FlechaIzquierda} from './../../Assets/Image/iconmonstr-arrow-left-thin.png'
-import {ReactComponent as FlechaDerecha} from './../../Assets/Image/iconmonstr-arrow-right-thin.png'
+
+import {ReactComponent as FlechaIzquierda1} from './../../Assets/Image/line-angle-left-icon.svg'
+import {ReactComponent as FlechaDerecha1} from './../../Assets/Image/arrow-thin-chevron-right-icon.svg'
 
 const Slideshow = () => {
   return (
@@ -12,10 +13,10 @@ const Slideshow = () => {
         </div>
         <div>
           <button>
-            <FlechaIzquierda />
+            <FlechaIzquierda1 />
           </button>
           <button>
-            <FlechaDerecha />
+            <FlechaDerecha1 />
           </button>
         </div>
     </div>
