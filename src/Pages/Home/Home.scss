@@ -1,10 +1,12 @@
 .home{
     background-color: silver;
-
-    &__carrusel{
-        display: flex;
-        justify-content: center;
+   
     }
     
-}
+.bloque1{
+    display: flex;
+    justify-content: space-around;
+    flex-direction:row;
+}    
+
 

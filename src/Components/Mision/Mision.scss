@@ -1,0 +1,17 @@
+.bloque_texto{
+    text-align: justify;
+    margin: 2%;
+
+    &__titulo{
+        color:gold;
+        text-align: center;
+        font-size: 20pt;
+    }
+    &__texto{
+        text-align: justify;
+        font-size: small;
+    }
+}
+
+
+

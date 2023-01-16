@@ -7,7 +7,7 @@ function Carrusel2() {
       <Carousel.Item interval={1000}>
         <img
           className="d-block w-100"
-          src="https://www.fayerwayer.com/resizer/L1AgX59JPtT49_5iqdcIsAqkjuU=/1440x810/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/metroworldnews/VBRF4I3YM5G63AU637TTONVARE.jpg"
+          src="https://kilometrosquecuentan.goodyear.eu/wp-content/uploads/2017/06/madrid-mirador-gran-via.jpg"
           alt="First slide"
         />
         <Carousel.Caption>
@@ -18,7 +18,7 @@ function Carrusel2() {
       <Carousel.Item interval={500}>
         <img
           className="d-block w-100"
-          src="https://www.fayerwayer.com/resizer/L1AgX59JPtT49_5iqdcIsAqkjuU=/1440x810/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/metroworldnews/VBRF4I3YM5G63AU637TTONVARE.jpg"
+          src="https://offloadmedia.feverup.com/madridsecreto.co/wp-content/uploads/2019/11/08103504/vistas-desde-cerro-tio-pio.jpg"
           alt="Second slide"
         />
         <Carousel.Caption>
@@ -29,7 +29,7 @@ function Carrusel2() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://www.fayerwayer.com/resizer/L1AgX59JPtT49_5iqdcIsAqkjuU=/1440x810/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/metroworldnews/VBRF4I3YM5G63AU637TTONVARE.jpg"
+          src="https://media.istockphoto.com/id/453100565/es/foto/vista-a%C3%A9rea-de-gran-v%C3%ADa-madrid-espa%C3%B1a.jpg?s=1024x1024&w=is&k=20&c=AeAXbsCOD8QI3E1fOCQQxpt9ivW8sWbvaAun2NFE9fU="
           alt="Third slide"
         />
         <Carousel.Caption>
