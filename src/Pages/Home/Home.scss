@@ -1,3 +1,10 @@
 .home{
     background-color: silver;
+
+    &__carrusel{
+        display: flex;
+        justify-content: center;
+    }
+    
 }
+
