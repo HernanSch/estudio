@@ -13,7 +13,7 @@ const items = [
   {
     src: require( '../Image/fondo.jpg'),
     altText: 'Image 1',
-    caption: 'fondo'
+    caption: <h1>Fondo</h1>,      
   },
   {
     src: require( '../Image/fondo2.jpg'),
@@ -80,7 +80,7 @@ class Carrusel extends Component {
     });
 
     return (
-      <Carousel
+      <Carousel className='carousel'
         activeIndex={activeIndex}
         next={this.next}
         previous={this.previous}

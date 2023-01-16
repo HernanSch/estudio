@@ -1,6 +1,14 @@
 .image{
-    width: 100%;
+    max-width: 100%;
     height: 400px;
-    display: flex;
+    
+    
+    
+}
+
+.carousel{
+    display: block;
     justify-content: center;
+    width: 100%;
+    height: 100%;
 }
