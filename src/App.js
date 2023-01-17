@@ -8,13 +8,13 @@ import Contacto from './Pages/Contacto/Contacto';
 function App() {
   return (
     <Router>
-      <div>
+      <div className="first_container">
         
         
         <header>
           <Header></Header>
         </header>
-        <main>
+        <main className="first_container__main">
           <Routes>        
             <Route exact path="/" element={<Home></Home>}></Route>
             <Route exact path="/about" element={<About></About>}></Route>

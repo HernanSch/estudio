@@ -1,21 +1,20 @@
 .header{
-    display: flex;
-    justify-content: space-between;    
-    background-color: #5f5e5e;
-    
+  display: flex;
+  justify-content: space-between;    
+  background-color: #5f5e5e;
+  
 
-    &__logo {
-        height: 56px;
-        width:  38px;
-        margin: 15px 0 0 15px;
-    }
-    &__menu--list{
-        display: flex;
-        box-sizing: inherit;
-        list-style: none;
-        margin: 17px;
-    }
-    
+  &__logo {
+    height: 56px;
+    width:  38px;
+    margin: 15px 0 0 15px;
+  }
+  &__menu--list{
+    display: flex;
+    box-sizing: inherit;
+    list-style: none;
+    margin: 17px;
+  }    
 }
 
 .bn3637 {
@@ -39,7 +38,7 @@
     color: #000;
     transition: transform 0.2s cubic-bezier(0.235, 0, 0.05, 0.95);
     &:hover {
-        border-bottom-color: rgb(120, 185, 245);
+      border-bottom-color: rgb(120, 185, 245);
   }
     
   .bn37:hover {

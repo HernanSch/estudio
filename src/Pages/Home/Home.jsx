@@ -9,13 +9,18 @@ import './Home.scss'
 const Home = () => {
   return (
     <div className='home'>
-      <h1>Home</h1>
-      <Carrusel2></Carrusel2>
+      <div>
+        <h1>Home</h1>
+      </div> 
+      <div className='carousel'>
+        <Carrusel2></Carrusel2>
+      </div> 
       <div className='bloque1'>
         <Somos></Somos>
         <Valores></Valores>
         <Mision></Mision>
       </div>
+        
       
     </div>
   )
