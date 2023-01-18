@@ -1,12 +1,18 @@
 .home{
     background-color: silver;
-   
+
+    &__bloque1{
+        display: flex;
+        justify-content: space-around;
+        flex-direction:row;
+    }   
+    &__formulario{
+        background-color: #103b5b;
+        color: white;   
     }
     
-.bloque1{
-    display: flex;
-    justify-content: space-around;
-    flex-direction:row;
-}    
+}
+    
+ 
 
 

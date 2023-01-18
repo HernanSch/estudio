@@ -5,6 +5,8 @@ import Header from './Components/Header/Header';
 import About from "./Pages/About/About";
 import Contacto from './Pages/Contacto/Contacto';
 
+import React from 'react' 
+
 function App() {
   return (
     <Router>
