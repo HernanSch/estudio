@@ -67,6 +67,11 @@ const Formulario2 = () => {
 				className="textInput"
 				placeholder="Ingresa un nombre"
 				onChange={e => setFieldValue('name', e.target.value)}
+				{...{
+					required: "El email no puede estar vacio",
+					value:/^[A-Z0-9._%+-]
+				}
+				
 			/>
 
 			{errors.name && <span className="error-message">{errors.name}</span>}
