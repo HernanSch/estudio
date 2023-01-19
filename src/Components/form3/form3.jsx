@@ -1,7 +1,10 @@
 import { Formik } from 'formik';
-import React, {useState} from 'react';
+import React, {useRef, useState} from 'react';
+import emailjs from '@emailjs/browser';
+import "bootstrap/dist/js/bootstrap.bundle"
 
 const Form3 = () => {
+    
 	const [formularioEnviado, cambiarFormularioEnviado] = useState(false);
 	return (
 		<>
@@ -29,7 +32,31 @@ const Form3 = () => {
                     return errores;
                 }}
                 onSubmit={(valores, {resetForm}) => {
+                    
+                    const form = useRef();  
+    const sendEmail = (e) => {
+      e.preventDefault();
+  
+      emailjs
+        .sendForm(
+            'service_oh92ohi', 
+            'template_b08av83', 
+            form.current, 
+            'ndJpUY8dQjxQIsGob'
+        )
+        .then(
+            (result) => {
+                console.log(result.text);
+                console.log("mensaje enviado");
+        },  (error) => {
+                console.log(error.text);
+        }
+      ); 
+
+
+
                     resetForm();
+                    
                     console.log(valores)
                     console.log('Formulario enviado')
                     cambiarFormularioEnviado(true)
