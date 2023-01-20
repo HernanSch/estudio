@@ -7,7 +7,7 @@ const Somos = () => {
     <div className='bloque_texto'>
       <div>
         <h1 className='bloque_texto__titulo'>VALORES</h1>
-        <p className='bloque_texto__texto'>Los socios Ana Sofía Lamares y Diogo Capela, abogados portugueses, con profundo conocimiento y amplia experiencia en sus áreas, compartimos los mismos valores y visión sobre cómo trabajar.</p>
+        <p className='bloque_texto__texto'>La selección de fútbol de Argentina es el equipo formado por jugadores de nacionalidad argentina representativo de dicho país a través de la Asociación del Fútbol Argentino (AFA) en las competiciones oficiales organizadas por la Confederación Sudamericana de Fútbol (Conmebol), ente rector de ese deporte en América del Sur, y por la Federación Internacional de Fútbol Asociación (FIFA). Es campeona vigente a nivel confederativo, interconfederativo y mundial.</p>
       </div>
       <div className='bloque_texto__link'>
         <Link to="/"><button className='bn3637 bn37'><span>Saber más</span></button></Link>
