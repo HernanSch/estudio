@@ -4,7 +4,7 @@ import Somos from '../../Components/Somos/Somos'
 import Valores from '../../Components/Valores/Valores'
 import Mision from '../../Components/Mision/Mision'
 import './Home.scss'
-import Formulario from '../../Components/Formulario/Formulario'
+import FormikV2 from '../../Components/FormikV2/FormikV2'
 
 const Home = () => {
   return (
@@ -17,7 +17,7 @@ const Home = () => {
         <Mision></Mision>
       </div>
       <div className='home__formulario'>
-        <Formulario></Formulario>
+        <FormikV2></FormikV2>
       </div>
       
     </div>

@@ -16,7 +16,9 @@
         
     }
     &__link{
-        text-align: center;
+        display: flex;
+        justify-content: center;
+        text-align:center;
         button{
             color: #000;
             border: 3px solid #000;
@@ -24,6 +26,7 @@
             border-color: rgba(0,0,0,0.6);
             background: transparent;
         }
+        margin-bottom: 5%;
     }
 }
 
