@@ -11,8 +11,8 @@ function Carrusel() {
           alt="First slide"
         />
         <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h3 className='textoCarrusel'>EXTRANJERIA</h3>
+          <p className='textoCarrusel'>Residencia, permiso de traajo, viajes a Cancún</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item interval={500}>
@@ -22,8 +22,8 @@ function Carrusel() {
           alt="Second slide"
         />
         <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h3 className='textoCarrusel'>DERECHO DE SUCESIONES</h3>
+          <p className='textoCarrusel'>Poco después de un fallecimiento , se crean obligaciones para los herederos, no sólo de naturaleza jurídica, sino también administrativa y fiscal,  asumiendo el abogado en estos casos un papel importante en el proceso de planificación de la sucesión, la calificación de los herederos y en el esclarecimiento de otras cuestiones que se plantean, a saber, en la asistencia al «cabeça de casal», a quien compete la administración de la herencia, en el desempeño del cargo y en el cumplimiento de las obligaciones administrativas y fiscales.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -33,9 +33,9 @@ function Carrusel() {
           alt="Third slide"
         />
         <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+          <h3 className='textoCarrusel'>DERECHO DE FAMILIA</h3>
+          <p className='textoCarrusel'>
+          Contamos con una amplia experiencia en el asesoramiento a clientes extranjeros y argentinos en relación con el matrimonio en Argentina, así como en la consultoría en asuntos relacionados con la estructura familiar, los menores y las sucesiones.
           </p>
         </Carousel.Caption>
       </Carousel.Item>

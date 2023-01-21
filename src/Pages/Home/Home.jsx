@@ -9,7 +9,7 @@ import Formulario from '../../Components/Formulario/Formulario'
 const Home = () => {
   return (
     <div className='home'>
-      <h1>Home</h1>
+      
         <Carrusel></Carrusel>
       <div className='home__bloque1'>
         <Somos></Somos>

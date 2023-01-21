@@ -1,9 +1,9 @@
 .header{
     display: flex;
     justify-content: space-between;    
-    background-color: #5f5e5e;
-    
-
+    background-color: #103b5b;
+    color: white;
+    height: 70px;
     &__logo {
         height: 56px;
         width:  38px;
@@ -13,7 +13,9 @@
         display: flex;
         box-sizing: inherit;
         list-style: none;
-        margin: 17px;
+        
+        background-color: #103b5b;
+        height: 40px;
     }
     
 }
@@ -28,15 +30,16 @@
     font-size: 9px;
     text-align: center;
     text-decoration: none;
-    color: #5f5e5e;
+    color: #ffffff;
     backface-visibility: hidden;
-    max-width: 50px;
+    max-width: 30px;
+    margin-top: -15%;
   }
   
   .bn37 {
     border-color: transparent;
-    background-color: #5f5e5e;
-    color: #000;
+    background-color: #103b5b;
+    color: rgb(255, 255, 255);
     transition: transform 0.2s cubic-bezier(0.235, 0, 0.05, 0.95);
     &:hover {
         border-bottom-color: rgb(120, 185, 245);
