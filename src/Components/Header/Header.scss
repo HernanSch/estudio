@@ -1,9 +1,14 @@
+header{
+  background-color: #103b5b;
+}
 .header{
     display: flex;
     justify-content: space-between;    
     background-color: #103b5b;
     color: white;
     height: 70px;
+    margin: 0 5% 0 5%;  
+    
     &__logo {
         height: 56px;
         width:  38px;
@@ -13,9 +18,12 @@
         display: flex;
         box-sizing: inherit;
         list-style: none;
-        
+        margin-top: 5%;
         background-color: #103b5b;
         height: 40px;
+      &__titulo{
+        margin: 5%;
+      }
     }
     
 }
@@ -37,6 +45,7 @@
   }
   
   .bn37 {
+    font-size:0.8em;
     border-color: transparent;
     background-color: #103b5b;
     color: rgb(255, 255, 255);
