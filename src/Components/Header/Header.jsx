@@ -8,7 +8,16 @@ const Header = () => {
   return (
     <div className='header'>
     {/* <img src={logo} className="header__logo" alt='logo'></img> */}
-    <h2>LOGO</h2>
+    <div>
+      <Link to="/">
+      <img
+          className="header__logo"
+          src="https://viniloslowcost.es/7460/vinilo-escudo-argentina-national-team-football.jpg"
+          alt="First slide"
+        />
+      </Link>
+    </div>
+    
     <div className='header__menu'>
         <ul className='header__menu--list'>
             <li><Link to="/"><button className='bn3637 bn37'><span className='header__menu--list__titulo'>Home</span></button></Link></li>
